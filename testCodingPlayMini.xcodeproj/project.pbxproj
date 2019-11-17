@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51122B3E237AA79400A23AE2 /* Laskar Pelangi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 51122B3D237AA79400A23AE2 /* Laskar Pelangi.mp3 */; };
 		5157B77223794584005C795E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5157B77123794584005C795E /* AppDelegate.swift */; };
 		5157B77423794584005C795E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5157B77323794584005C795E /* SceneDelegate.swift */; };
 		5157B77623794584005C795E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5157B77523794584005C795E /* ViewController.swift */; };
 		5157B77923794584005C795E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5157B77723794584005C795E /* Main.storyboard */; };
 		5157B77B23794587005C795E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5157B77A23794587005C795E /* Assets.xcassets */; };
 		5157B77E23794587005C795E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5157B77C23794587005C795E /* LaunchScreen.storyboard */; };
+		518AFE6E2381458700826789 /* MaqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518AFE6D2381458700826789 /* MaqueeLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51122B3D237AA79400A23AE2 /* Laskar Pelangi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Laskar Pelangi.mp3"; sourceTree = "<group>"; };
 		5157B76E23794584005C795E /* testCodingPlayMini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCodingPlayMini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5157B77123794584005C795E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5157B77323794584005C795E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		5157B77A23794587005C795E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5157B77D23794587005C795E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5157B77F23794587005C795E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518AFE6D2381458700826789 /* MaqueeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaqueeLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				5157B77123794584005C795E /* AppDelegate.swift */,
 				5157B77323794584005C795E /* SceneDelegate.swift */,
 				5157B77523794584005C795E /* ViewController.swift */,
+				518AFE6D2381458700826789 /* MaqueeLabel.swift */,
 				5157B77723794584005C795E /* Main.storyboard */,
+				51122B3D237AA79400A23AE2 /* Laskar Pelangi.mp3 */,
 				5157B77A23794587005C795E /* Assets.xcassets */,
 				5157B77C23794587005C795E /* LaunchScreen.storyboard */,
 				5157B77F23794587005C795E /* Info.plist */,
@@ -127,6 +133,7 @@
 			files = (
 				5157B77E23794587005C795E /* LaunchScreen.storyboard in Resources */,
 				5157B77B23794587005C795E /* Assets.xcassets in Resources */,
+				51122B3E237AA79400A23AE2 /* Laskar Pelangi.mp3 in Resources */,
 				5157B77923794584005C795E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				5157B77623794584005C795E /* ViewController.swift in Sources */,
 				5157B77223794584005C795E /* AppDelegate.swift in Sources */,
+				518AFE6E2381458700826789 /* MaqueeLabel.swift in Sources */,
 				5157B77423794584005C795E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
